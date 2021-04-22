@@ -1,23 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
 /* Application-wide Styles */
-h1 {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
-  }
-  h2, h3 {
-    color: #444;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-  }
   body {
-    margin: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #010000;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+    background: #e6e6e6;
   }
-  body, input[type="text"], button {
-    color: #333;
-    font-family: Cambria, Georgia;
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #010000;
+    cursor: pointer;
   }
-  /* everywhere else */
-  * {
-    font-family: Arial, Helvetica, sans-serif;
+  a:hover {
+    color: #ff1755;
+
   }
+  a,
+  a:hover {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #010000;
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: block;
+  }
+
+ content-area {
+    width: 100%;
+    max-width: 1345px;
+    margin: 0 auto;
+    padding: 0;
+    background: #ffffff;
+  }
+
+  my-header {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+my-nav {
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  margin: 0 auto;
+  padding: 0;
+  background: #010000;
+  color: #ffffff;
+}
+
+my-nav,
+my-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+my-nav ul li {
+  display: inline;
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+my-nav ul li a{
+  display: block;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+my-nav ul li a:hover{
+  background: #ffffff;
+  color: #010000;
+}
+
+content-area .main{
+  display: block;
+  margin: 33px 0;
+  padding: 0 10px;
+  background: #ffffff;
+}
+
+my-footer {
+  position: fixed;
+  font-size: 10px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  background: #010000;
+  color: #707070;
+  min-height: 20px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
