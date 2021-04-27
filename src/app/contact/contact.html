@@ -1,0 +1,43 @@
+<h1> Contacter moi </h1>
+<head>
+    <title>Contact Form Example</title>
+</head>
+<div class="wrapper">
+<form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwsS0E2DP0fkWO-fG69iV0Z6Ymp-O6YfznMfTUfgSlBe2W9tvu3zTvdGv0U7vRv2t2t/exec">
+      <div class="form-elements">
+        <fieldset class="pure-group">
+          <label for="name">Nom: </label>
+          <input id="name" name="name" placeholder="Votre nom" />
+        </fieldset>
+
+        <fieldset class="pure-group">
+          <label for="message">Message: </label>
+          <textarea id="message" name="message" rows="10"
+          placeholder="Que puis-je faire pour vous?"></textarea>
+        </fieldset>
+
+        <fieldset class="pure-group">
+          <label for="email"><em>Votre</em> Adresse Courriel:</label>
+          <input id="email" name="email" type="email" value=""
+          required placeholder="votre.email@email.com"/>
+        </fieldset>
+
+        <fieldset class="pure-group honeypot-field">
+          <label for="honeypot">Prière de laisser ce champ vide.</label>
+          <input id="honeypot" type="text" name="honeypot" value="" />
+        </fieldset>
+
+        <button class="button-success pure-button button-xlarge">
+          <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+      </div>
+
+      <!-- Customise the Thankyou Message People See when they submit the form: -->
+      <div class="thankyou_message" style="display:none;">
+        <h2><em>Merci</em> de me contacter!
+          Je vous répondrai dès que possible!</h2>
+      </div>
+
+    </form>
+</div>
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="form-submission-handler.js"></script>
