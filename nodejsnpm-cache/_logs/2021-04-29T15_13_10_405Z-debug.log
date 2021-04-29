@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'F:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'F:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.15.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle test@0.0.0~prestart: test@0.0.0
+6 info lifecycle test@0.0.0~start: test@0.0.0
+7 verbose lifecycle test@0.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle test@0.0.0~start: PATH: F:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\Documents\GitHub\strikwolf.github.io\node_modules\.bin;C:\Users\Strik\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Strik\bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Python39\Scripts;C:\Python39;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapat;D:\Users\Strik\AppData\Local\Programs\Python\Python37-32";C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\ProgramData\chocolatey\bin;F:\Program Files\nodejs;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0;%SYSTEMROOT%\System32\OpenSSH;D:\Users\Strik\AppData\Local\Programs\Python\Python37-32\Scripts;D:\Users\Strik\AppData\Local\Programs\Python\Python37-32;C:\Users\Strik\AppData\Local\Microsoft\WindowsApp;D:\Python37-32";C:\Users\Strik\AppData\Local\GitHubDesktop\bin;C:\Users\Strik\AppData\Local\Microsoft\WindowsApps;F:\Users\Strik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Strik\AppData\Roaming\npm;C:\Users\Strik\AppData\Local\atom\bin;F:\Program Files\nodesjs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+9 verbose lifecycle test@0.0.0~start: CWD: D:\Documents\GitHub\strikwolf.github.io
+10 silly lifecycle test@0.0.0~start: Args: [ '/d /s /c', 'ng serve' ]
+11 silly lifecycle test@0.0.0~start: Returned: code: 9009  signal: null
+12 info lifecycle test@0.0.0~start: Failed to exec start script
+13 verbose stack Error: test@0.0.0 start: `ng serve`
+13 verbose stack Exit status 9009
+13 verbose stack     at EventEmitter.<anonymous> (F:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (F:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+14 verbose pkgid test@0.0.0
+15 verbose cwd D:\Documents\GitHub\strikwolf.github.io
+16 verbose Windows_NT 10.0.19042
+17 verbose argv "F:\\Program Files\\nodejs\\node.exe" "F:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+18 verbose node v14.15.1
+19 verbose npm  v6.14.8
+20 error code ELIFECYCLE
+21 error errno 9009
+22 error test@0.0.0 start: `ng serve`
+22 error Exit status 9009
+23 error Failed at the test@0.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 9009, true ]
