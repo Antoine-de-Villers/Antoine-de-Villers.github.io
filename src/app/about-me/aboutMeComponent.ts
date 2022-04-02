@@ -10,7 +10,7 @@ export class AboutMeComponent implements OnInit {
 
   constructor() {
     this.name = 'Antoine de Villers';
-    this.description = "Bonjour, je suis un développeur web Angular. "
+    this.description = "Bonjour, je suis un analyste en Assurance Qualité qui détient un background en développement web."
   }
 
   ngOnInit(): void {
